@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+}
+table td {
+  border: 1px solid white;
+  padding: 15px;
+  background-color: aqua;
+  border-collapse: collapse;
+  width: 150px;
+}
+
+table td button {
+  padding: 15px;
+  background-color: aqua;
+  cursor: pointer;
+  color: white;
+}
+.edit {
+  background-color: green;
+}
+.delete {
+  background-color: red;
+}
+
+input {
+  width: 250px;
+  padding: 20px;
+  font-size: 20px;
+}
+.add {
+  background-color: green;
+  padding: 20px;
+  width: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
